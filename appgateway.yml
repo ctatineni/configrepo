@@ -1,0 +1,9 @@
+zuul:
+  routes:
+    register-user:
+      path: /**
+      service-id: register-user
+      strip-prefix: true
+security:
+  basic:
+    enabled: false
