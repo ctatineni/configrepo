@@ -1,8 +1,8 @@
 zuul:
   routes:
-    register-user:
+    register:
       path: /**
-      service-id: register-user
+      service-id: register
       strip-prefix: true
 security:
   basic:
